@@ -1,8 +1,8 @@
 class Whatscli < Formula
   desc "Command-line interface for WhatsApp"
   homepage "https://github.com/normen/whatscli"
-  url "https://github.com/normen/whatscli/archive/v1.0.6.tar.gz"
-  sha256 "46b6f741e9d573cb73294d83d10bb63c752ae02d471614e6f870f0265c172ed5"
+  url "https://github.com/normen/whatscli/archive/v1.0.7.tar.gz"
+  sha256 "57a6a9c6ba39cb1436f2ff69713c50cfc9f024a47cf84421ecb3b9cb76bcb819"
   license "MIT"
 
   depends_on "go" => :build
