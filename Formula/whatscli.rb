@@ -5,6 +5,10 @@ class Whatscli < Formula
   sha256 "b4b2ceb1c4babe5fc53284714aebf102477543df247e2a25b533e4271d0622d7"
   license "MIT"
 
+  head do
+    url "https://github.com/normen/whatscli.git", branch: "master"
+  end
+
   depends_on "go" => :build
 
   def install
