@@ -8,9 +8,7 @@ class Whatscli < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args, "-o", "whatscli"
-    mkdir bin.to_s
-    cp "whatscli", "#{bin}/"
+    system "go", "build", *std_go_args
   end
 
   test do
