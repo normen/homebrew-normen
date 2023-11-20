@@ -2,8 +2,8 @@
 class ObsMcu < Formula
   desc "Connect OBS and a Mackie Control Unit (MCU)"
   homepage "https://github.com/normen/obs-mcu"
-  url "https://github.com/normen/obs-mcu/archive/v0.1.1.tar.gz"
-  sha256 "6536380b8eab51e8f846ad25f43d665093801ced70816fc375ddb2e86d72bdf8"
+  url "https://github.com/normen/obs-mcu/archive/v0.2.0.tar.gz"
+  sha256 "d7ffcb5251ed68df6a5f9709066998e749a6a3bd52dc3512cb023e7375bcf8fc"
   license "MIT"
 
   depends_on "go" => :build
